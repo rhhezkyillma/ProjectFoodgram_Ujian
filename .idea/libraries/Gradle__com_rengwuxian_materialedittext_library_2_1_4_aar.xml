@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.rengwuxian.materialedittext:library:2.1.4@aar">
+    <ANNOTATIONS>
+      <root url="jar://C:/gradle1/gradle-4.6/caches/transforms-2/files-2.1/96fc5990384cd28d0bfdff4f803bc721/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://C:/gradle1/gradle-4.6/caches/transforms-2/files-2.1/96fc5990384cd28d0bfdff4f803bc721/res" />
+      <root url="jar://C:/gradle1/gradle-4.6/caches/transforms-2/files-2.1/96fc5990384cd28d0bfdff4f803bc721/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/gradle1/gradle-4.6/caches/modules-2/files-2.1/com.rengwuxian.materialedittext/library/2.1.4/421c5ba24415fde1222bd75540aa012efc22ed5a/library-2.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

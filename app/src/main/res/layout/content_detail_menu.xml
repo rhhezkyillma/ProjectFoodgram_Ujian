@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingHorizontal="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailMenuActivity"
+    tools:showIn="@layout/activity_detail_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/foodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="28sp"
+            android:layout_margin="15dp"
+            android:textColor="@color/colorBlack"
+            android:text="...food name..." />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/foodDesc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="... food desc..."
+                android:elevation="50dp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="17dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youtubePlayer"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="18dp"
+                />
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@drawable/find_resto"-->
+                <!--/>-->
+
+            <ImageView
+                android:id="@+id/foodLocc"
+                android:layout_gravity="center"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/loaction"
+                android:text="Find Your Favorite Food" />
+
+
+            <Button
+                android:id="@+id/foodLoc"
+                android:layout_gravity="center"
+                android:layout_width="130dp"
+                android:layout_height="30dp"
+                android:background="@drawable/bg_location"
+                android:textColor="@color/colorWhite"
+                android:text="Find Location" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

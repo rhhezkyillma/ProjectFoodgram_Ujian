@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:foreground="?android:selectableItemBackground"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="2dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/txtATitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="textStart"
+            android:lines="1"
+            android:paddingLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:text="Title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:gravity="start" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtATitle"
+            android:layout_margin="10dp"
+            android:id="@+id/ImageArticle"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/txtADate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ImageArticle"
+            android:layout_marginTop="20dp"
+            android:text="Tue, 17 June 19"
+            android:layout_marginLeft="8dp"
+            android:drawableLeft="@drawable/ic_calendar"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/txtAuthor"
+            android:layout_below="@+id/txtADate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="Reezky Illma"
+            android:drawableLeft="@drawable/ic_person"
+            android:layout_alignParentLeft="true" />
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

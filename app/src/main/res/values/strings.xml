@@ -1,0 +1,333 @@
+<resources>
+    <string name="app_name">Foodgram</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="username">username</string>
+
+    <string name="YOUTUBE_API_KEY">AIzaSyDHGT8Bcvc308y2KNudCjwskmsqrnPYe1g</string>
+
+    <!--MAKANAN UNTUK CUACA DINGIN-->
+    <string name="url_sop_ayam">https://scm-assets.constant.co/scm/unilever/a6798e909fa57bfd19c3e7f00737e5d6/d4d8b5ec-e58a-421f-88a9-092a854e23ba.jpg</string>
+    <string name="desc_sop_ayam">Sup ayam adalah sup yang terbuat dari ayam, yang dicampur dengan berbagai bahan makanan lainnya. Sup ayam klasik terdiri dari kaldu encer, yang dimasukkan potongan ayam atau sayuran; umumnya ditambahkan dengan pasta (biasanya mi, meskipun berbagai jenis lainnya dapat digunakan), dumpling, atau padi-padian seperti nasi dan jelai. Sup ayam juga biasanya dihidangkan untuk orang yang sakit pilek dan flu. Penelitian ilmiah membuktikan bahwa sup ayam punya kemampuan medis. Satu penelitian menemukan bahwa mengonsumsi sup ayam akan menurunkan gejala flu dan masalah pernapasan dengan cara bergerak di sekeliling neutrofil dalam tubuh. Neutrofil adalah bagian dari sel darah putih digunakan untuk mencegah infeksi dalam tubuh.</string>
+
+    <string name="url_tongseng">https://cdn.idntimes.com/content-images/post/20171124/tongseng-0024fa71b68e99644b03609ccabfc9ac.jpeg</string>
+    <string name="desc_tongseng">Tampilan tongseng sekilas mirip dengan gulai atau rawon. Yang membedakannya adalah aroma dan bumbunya yang sangat kuat.Selain itu,Tongseng dibuat dengan menggunakan daging yang masih melekat pada tulang, terutama tulang iga dan tulang belakang. Tongseng pada umumnya menggunakan daging kambing, meskipun ada pula tongseng daging sapi dan kerbau. Sebagai tambahan, ke dalam kuah kental dimasukkan sayuran seperti kol, bawang putih, tomat, dan kecap. Bumbunya merupakan oseng-oseng yang terdiri dari campuran garam, bawang putih, kecap, dan lada. Biasanya tongseng dijual bersamaan dengan sate kambing. Tongseng dianggap sebagai makanan khas daerah Solo, Magelang dan sekitarnya, tetapi adapula variasi Tongseng daging suir tahu di Kebumen.</string>
+
+    <string name="url_capcay">https://cdn.sindonews.net/dyn/620/content/2019/01/14/185/1370188/yuk-buat-capcay-kuah-yang-lezat-dan-menyehatkan-kPE.jpg</string>
+    <string name="desc_capcay">Capcay adalah makanan yang disajikan dengan perpaduan berbagai jenis sayuran tertentu disertai dengan campuran daging atau ikan dan dilengkapi dengan bumbu rempah alami yang menambah cita rasa masakan menjadi lezat dan menyehatkan. Secara penyajian, capcay dapat berbentuk capcay goreng dan capcay kuah. Walaupun hanya memiliki dua kriteria penyajian, berbagai resep yang diberikan memiliki ragam jenisnya yang perbedaannya terletak pada bahan pembuatan dan bumbu dapur yang digunakan. Jika kondisi cuaca dingin paling nikmat menyantap makanan ini, juga sangat cocok bagi anda yang sedang masa pemulihan setelah sakit yang akan membuat tubuh menjadi segar dan energik kembali karena masakan ini menggunakan bahan bahan rempah alami seperti merica, bawang putih dan sebagainya, yang digunakan untuk meningkatkan sistem kekebalan tubuh.</string>
+
+    <string name="url_gulai">https://cdn.idntimes.com/content-images/post/20171124/pinterest-c874c03abd325ac0e16cc5a668ef9c32.jpg</string>
+    <string name="desc_gulai">Gulai adalah masakan berbahan baku daging ayam, aneka ikan, kambing, sapi, jeroan, atau sayuran seperti nangka muda dan daun singkong, yang diolah dalam kuah bumbu rempah yang bercitarasa gurih. Ciri khas gulai adalah bumbunya yang kaya rempah antara lain kunyit, ketumbar, lada, lengkuas, jahe, cabai merah, bawang merah, bawang putih, adas, pala, serai, kayu manis dan jintan yang dihaluskan, dicampur, kemudian dimasak dalam santan. Masakan ini yang memiliki ciri khas berwarna kuning karena pengaruh sari kunyit. Makanan ini dianggap sebagai bentuk lain dari kari, dan secara internasional sering disebut sebagai kari ala Indonesia, meskipun dalam seni kuliner Indonesia juga ditemukan kari. Makanan berbahan dasar daging ini sangat pas menemanimu menikmati hujan. Disantap pakai nasi atau tidak, kenikmatan gulai tak akan tergantikan.</string>
+
+    <string name="url_kwetiau">https://img.okezone.com/content/2015/08/20/298/1199616/lima-kwetiau-di-jakarta-yang-harus-anda-coba-29RO5VWqao.jpg</string>
+    <string name="desc_kwetiau">Kwetiau adalah sejenis mi Tionghoa berwarna putih yang terbuat dari beras. Jika digoreng disebut kwetiau goreng. Jika dimasak kuah, disebut kwetiau kuah. Kwetiau merupakan makanan yang cukup populer di Indonesia, terutama di Jakarta dan tempat-tempat lain yang banyak didiami warga keturunan Tionghoa. Kwetiau pada umumnya identik dengan orang Tionghoa etnis Hokkian dan Tio Ciu. Di Indonesia, kwetia dibedakan atas kwetiau masakan etnis Hokkian dan kwetiau masakan etnis Tio Ciu. Kwetiau yang terkenal di kalangan Etnis Hokkian yang banyak berdiam di Sumatra adalah kwetiau medan yang memakai bakso ikan, lapchiong (sosis babi), dan telur bebek. Dalam perkembangannya muncul varian baru yang dikenal dengan sebutan kwetiau siram. Kwetiau Siram adalah jenis kwetiau yang berkuah, sering dimasak dengan daging babi ataupun sapi.</string>
+
+    <string name="url_bakmie_godog">https://selerasa.com/wp-content/uploads/2015/09/images_mancanegara_Bakmi_bakmi-godog.jpg</string>
+    <string name="desc_bakmie_godog">Bakmi jawa atau mi jawa (bakmi godhog) adalah bakmi rebus yang dimasak dengan bumbu khas masakan Jawa. Kebanyakan bakmi Jawa adalah bakmi rebus, sehingga di luar negeri (Malaysia dan Singapura) bakmi Jawa ini dikenal dengan sebutana mee rebus, akan tetapi sebenarnya terdapat variasi mi goreng dari bakmi Jawa. Mi dimasak di atas tungku tanah liat (anglo) dan api arang. Meskipun banyak pembeli yang memesan, juru masak tidak memasak semua pesanan dalam satu wajan besar, melainkan bahan dan bumbu diracik satu per satu. Pesanan dimasak satu porsi demi satu porsi di dalam wajan kecil. Ciri khas lainnya bakmi Jawa adalah penambahan suwiran daging ayam kampung dan telur bebek ke dalam masakan. Mie godok alias mie rebus. Olahan khas Jawa ini juga menjadi primadona saat hujan.  Rasanya nikmat dan gurih, dengan kekayaan bumbu khas Indonesia. </string>
+
+    <string name="url_ramen">https://cdn.idntimes.com/content-images/post/20160212/epicurious-0d77fd34fa70a8e2204ad7664099325a.jpg</string>
+    <string name="desc_ramen">Mie khas Jepang ini sangat populer di Indonesia.Ciri khas dari ramen adalah bentuk mie yang tipis dan berwarna kuning merupakan hasil buatan tangan atau buatan mesin. Sekilas memang mirip dengan mie instan yang ada di Indonesia. Namun mie ramen memiliki diameter yang lebih kecil. Mie tersebut dimasukkan ke dalam kuah yang dibuat dari berbagai jenis kaldu. Rasanya pas di lidah dengan bumbunya yang khas, siap bikin kita ketagihan. Paling enak disantap saat masih panas. Badan kita pun akan terasa hangat dan bugar.</string>
+
+    <string name="url_tomyum">https://cdn.idntimes.com/content-images/post/20160212/desiam-4549098a764006a72a64d013418ffd3e.jpg</string>
+    <string name="desc_tomyum">Tom Yum merupakan sup yang berasal dari Thailand. Olahan makanan ini terdiri dari udang, ayam, ikan, jamur, dan seafood.Sup asal Thailand yang sudah sangat terkenal ini tak hanya bisa kita nikmati di resto ternama saja. Dengan resep teruji ini, kita dapat membuat Tom Yam Soup sendiri.</string>
+
+    <string name="url_laksa">https://cdn.idntimes.com/content-images/post/20160212/tastecomau-c041813cd602483fa4cb2abac495a2ff.jpg</string>
+    <string name="desc_laksa">Laksa adalah makanan berjenis mi yang ditaruh bumbu dengan kebudayaan Peranakan, yang digabung dengan elemen Tionghoa dan Melayu. Laksa mempunyai beberapa jenis, yang paling dikenal adalah yang berjenis Laksa Penang, bentuk mi-nya bulat putih dan sedikit tebal. Di Indonesia juga terdapat beberapa jenis laksa seperti Laksa Bogor dan Laksa Betawi. Nama Laksa diambil dari bahasa Sanskerta yang mempunyai arti banyak, menunjukkan bahwa mi Laksa dibuat dengan berbagai bumbu.Laksa merupakan kuliner perpaduan antara Tionghoa dan Melayu. Kuliner ini lebih banyak ditemukan di Jakarta dan sekitarnya.</string>
+
+    <string name="url_soto_ayam">https://estrilook.com/wp-content/uploads/2018/09/soto-lamongan-2.jpg</string>
+    <string name="desc_soto_ayam">Soto ayam adalah makanan khas Indonesia yang berupa sejenis sup ayam dengan kuah yang berwarna kekuningan. Warna kuning ini dikarenakan oleh kunyit yang digunakan sebagai bumbu. Soto ayam banyak ditemukan di daerah-daerah di Indonesia dan Singapura. Selain ayam bahan yang digunakan juga meliputi telur rebus, irisan kentang, daun seledri, serta bawang goreng. Terkadang soto juga disajikan dengan lontong atau nasi putih. Selain itu soto ayam juga sering dihidangkan dengan sambal, kerupuk dan koya (campuran tumbukan kerupuk dengan bawang putih). Soto ayam sebenarnya jenis sup tradisional yang dalam proses pembuatannya hanya memerlukan proses perebusan </string>
+
+    <string name="url_sop_buntut">https://cdn.idntimes.com/content-images/post/20160212/resepharini-99bd4b756548ac7690c86f1e84e410cd.jpg</string>
+    <string name="desc_sop_buntut">Siapa yang tak kenal primadona satu ini? Hampir semua orang menyukainya. Sesuai namanya, sop ini terdiri dari ekor sapi yang lezat. Sup buntut dibuat dengan ekor sapi. Sedikitnya ada lima versi sup buntut yang populer di seluruh dunia: makanan tradisional Korea, makanan Cina yang lebih mirip semur, ekor sapi goreng/panggang dicampur dengan berbagai variasi sup merupakan makanan populer di Indonesia, makanan etnis Amerika Serikat Selatan yang sudah ada sejak periode sebelum perang revolusi, dan sup kuah tebal dan gurih yang populer di Britania Raya sejak abad ke-18. Sup buntut Kreol dibuat dari tomat dengan ekor sapi, kentang, kacang hijau, jagung, mirepoix, bawang putih, dan rempah-rempah. Perpaduan daging dan sayuran bakal memanjakan lidah pecinta kuliner. </string>
+
+    <string name="url_ceker_ayam">https://img-k.okeinfo.net/content/2016/04/26/298/1373137/ini-dimsum-paling-favorit-orang-indonesia-PfuZRiQAIE.jpg</string>
+    <string name="desc_ceker_ayam">Ceker ayam adalah bagian kaki ayam yang lazim dikonsumsi. Hidangan ceker ayam dapat ditemukan dalam kuliner Asia, Eropa Timur, Afrika, Karibia dan Amerika Latin. Dalam seni kuliner dunia, hidangan dari ceker ayam dapat ditemukan dalam seni Masakan Tionghoa, Indonesia, Korea, Thailand, Laos, Malaysia, Filipina, Vietnam, Jamaika, Trinidad dan Tobago, Rusia, Rumania, Afrika Selatan, Peru. </string>
+
+    <string name="url_bakso">https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2018/09/04/4100685321.jpg</string>
+    <string name="desc_bakso">Bakso atau baso adalah jenis bola daging yang lazim ditemukan pada masakan Indonesia.[2] Bakso umumnya dibuat dari campuran daging sapi giling dan tepung tapioka, akan tetapi ada juga bakso yang terbuat dari daging ayam, ikan, atau udang bahkan daging kerbau. Dalam penyajiannya, bakso umumnya disajikan panas-panas dengan kuah kaldu sapi bening, dicampur mi, bihun, taoge, tahu, terkadang telur dan ditaburi bawang goreng dan seledri. Bakso sangat populer dan dapat ditemukan di seluruh Indonesia; dari gerobak pedagang kaki lima hingga restoran besar. Berbagai jenis bakso sekarang banyak ditawarkan dalam bentuk makanan beku yang dijual di pasar swalayan ataupun mal-mal. Irisan bakso dapat juga dijadikan pelengkap jenis makanan lain seperti mi goreng, nasi goreng.</string>
+
+    <string name="url_sayur_asem">https://selerasa.com/wp-content/uploads/2015/06/images_sayuran_Sayur-asem-betawi.jpg</string>
+    <string name="desc_sayur_asem">Sayur asam atau sayur asem adalah masakan sejenis sayur yang khas Indonesia. Ada banyak variasi lokal sayur asam seperti sayur asam Jakarta (variasi dari orang Betawi di Jakarta), sayur asam kangkung (variasi yang menggunakan kangkung), dan sayur asam ikan asin.Bahan-bahan yang sering digunakan adalah kacang tanah, nangka muda, melinjo, belimbing sayur, labu siam, kacang panjang, dan asam jawa. Sering juga digunakan jagung dalam masakan ini.Rasa masakan yang manis dan asam ini sangatlah menyegarkan dan cocok jika dipadukan dengan lauk kering lainnya seperti ikan goreng dan lalapan. Sering juga masakan ini disajikan dengan sambal.Masakan ini masih menyerupai tom yam, yang merupakan masakan Thailand, walau sayur asam lebih menggunakan sayur-sayuran.</string>
+
+    <string name="url_empal_gentong">https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1543479319/pplbwcau3gb74fbgdy7w.jpg</string>
+    <string name="desc_empal_gentong">Empal Gentong adalah adalah makanan khas masyarakat Cirebon, Jawa Barat. Makanan ini mirip dengan gulai (gule) dan dimasak menggunakan kayu bakar (pohon mangga) di dalam gentong (periuk tanah liat).Daging yang digunakan adalah usus, babat dan daging sapi yang di potong kecil-kecil. </string>
+
+    <string name="url_sayur_lodeh">https://sifu.unileversolutions.com/image/id-ID/recipe-topvisual/2/1260-709/sayur-lodeh-50243993.jpg</string>
+    <string name="desc_sayur_lodeh">Sayur Lodeh adalah masakan sayur yang berkuah santan khas Indonesia, terutama di daerah Jawa Tengah. Sayur lodeh mempunyai berbagai macam variasi terutama pada bumbunya, ada yang santannya berwarna putih dan ada juga yang santannya berwarna kuning kemerahan.Bahan-bahan yang sering digunakan adalah labu jipang, kacang panjang, terung, petai, tempe, cabai, jagung kecil dan santan.Resep masakan yang enak dan gurih ini sangat menyegarkan dan cocok jika dipadukan dengan serundeng daging, empal daging, telur asin dan ikan tongkol. Dan biasanya dihidangkan bersama dengan sambal.Masakan ini menyerupai kari, tetapi masakan ini menggunakan sayur-sayuran daripada menggunakan daging atau boga laut.Sebagai makanan khas Jawa, ini adalah suguhan menu penuh sayuran dan tempe yang disatukan dalam kuah sup santan. Disajikan dengan nasi lontong, sangat cocok sebagai sajian tradisional.</string>
+
+    <string name="url_lontong_sayur">https://cdn2.tstatic.net/bangka/foto/bank/images/lontong-sayur.jpg</string>
+    <string name="desc_lontong_sayur">Berkuah gurih hangat dengan isian lengkap membuat lontong sayur selalu dicari saat sarapan. Indonesia punya beberapa jenis lontong sayur enak.Lontong sayur jadi menu favorit untuk mengisi perut di pagi hari. Hidangan ini diracik dari potongan lontong atau ketupat, sayur gurih, tambahan telur atau tahu, dan kerupuk. Bukan hanya dari Betawi, ada lontong sayur enak di Medang, Bandung, hingga Banjar.</string>
+
+    <string name="url_opor_ayam">https://i2.wp.com/www.bisamasak.com/wp-content/uploads/2018/08/opor-ayam-gurih-dan-enak.jpg</string>
+    <string name="desc_opor_ayam">Opor ayam merupakan masakan yang sangat dikenal di Indonesia. Masakan ini telah dikenal luas di daerah lain. Bahkan hampir ke seluruh wilayah Indonesia.Opor ayam sebenarnya adalah ayam rebus yang diberi bumbu kental dari santan yang ditambah berbagai bumbu seperti serai, kencur, dan sebagainya. Dalam tradisi Jawa, perayaan Lebaran biasanya dibuat meriah dengan membuat ketupat yang disajikan dengan opor ayam dan sambal.</string>
+
+    <string name="url_sate_padang">https://www.pegipegi.com/travel/wp-content/uploads/2018/11/shutterstock_460115545-1.jpg</string>
+    <string name="desc_sate_padang">Sate Padang adalah sebutan untuk tiga jenis varian sate di Sumatra Barat, yaitu Sate Padang, Sate Padang Panjang dan Sate Pariaman.Sate Padang memakai bahan daging sapi, lidah, atau jerohan (jantung, usus, dan tetelan)[1] dengan bumbu kuah kacang kental (mirip bubur) ditambah cabai yang banyak sehingga rasanya pedas.Sate Padang Panjang dibedakan dengan kuah sate nya yang berwarna kuning sedangkan sate Pariaman kuahnya berwarna merah. Rasa kedua jenis sate ini juga berbeda. Sedangkan sate Padang mempunyai bermacam rasa perpaduan kedua jenis varian sate.</string>
+
+    <string name="url_sop_iga">https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1540297039/olm3hvvjo5mqv2kmqkow.jpg</string>
+    <string name="desc_sop_iga">Daging Iga Sapi atau rib adalah bagian daging sapi yang berasal dari daging di sekitar tulang iga atau tulang rusuk. Bagian ini termasuk dari delapan bagian utama daging sapi yang biasa dikonsumsi. Seluruh bagian daging iga ini bisa terdiri dari beberapa iga, mulai dari iga ke 6 sampai dengan iga ke- 12; untuk potongan daging iga yang akan dikonsumsi bisa terdiri dari 2 sampai dengan 7 tulang iga.Tulang iga, atau short ribs, biasa diolah menjadi sop seperti sop konro. Bisa juga dimasak semur, dipanggang.Rib-eye steak adalah potongan dalam bentuk steak, bisa dengan tulang (bone in) atau dimasak dengan tanpa tulang (boneless).</string>
+
+
+    <string name="url_thai_tea">https://meramuda.com/wp-content/uploads/2017/08/Suka-Thai-Tea-Coba-Sendiri-Yuk-dengan-Resep-Ini-cover.jpg</string>
+    <string name="desc_thai_tea">Thai tea dikenal dengan sebutan cha yen, yaitu campuran teh hitam, susu kental manis dan es. Kini Thai tea menjadi bagian utama dari beberapa kuliner Thailand dengan membawa fakta menariknya.Thai tea terbuat dari teh, susu, dan gula. Teh Thailand dibuat dari teh Ceylon yang banyak tumbuh di Bai Miang. </string>
+
+    <string name="url_bandrek">https://indoblognet.com/wp-content/uploads/2019/02/minuman-bandrek-susu-jahe_8bbbb7e9150d68e07854f52d45304dfd.jpg</string>
+    <string name="desc_bandrek">Bandrék adalah minuman tradisional orang Sunda dari Jawa Barat, Indonesia, yang dikonsumsi untuk meningkatkan kehangatan tubuh. Minuman ini biasanya dihidangkan pada cuaca dingin, seperti di kala hujan ataupun malam hari. Bahan dasar bandrék yang paling penting adalah jahe dan gula merah, tetapi pada daerah tertentu biasanya menambahkan rempah-rempah tersendiri untuk memperkuat efek hangat yang diberikan bandrék, seperti serai, merica, pandan, telur ayam kampung, dan sebagainya. Susu juga dapat ditambahkan tergantung dari selera penyajian. Banyak orang Indonesia percaya bahwa bandrék dapat menyembuhkan berbagai penyakit ringan seperti sakit tenggorokan, batuk, dan lain sebagainya. Di Bandung, biasanya penjual menambahkan sejumput kerukan kelapa untuk menambah cita rasa dari Bandrek tersebut. Bandrek biasa dikonsumsi bersama kacang rebus, ubi jalar rebus, dan juga gorengan.</string>
+
+    <string name="url_wedang_ronde">https://merahputih.com/media/14/4b/95/144b953912f351ebbafd66ee62619176.jpg</string>
+    <string name="desc_wedang_ronde">Wedang ronde adalah minuman hangat khas dari Jogja yang memiliki banyak penggemar. Dari mulai anak-anak, orang tua dan juga anak muda tentu saja banyak yang suka dengan wedang ronde yang dapat menghangatkan badan ini. Wedang ronde juga sering dijual oleh pedagang kaki lima yang biasa ada di pinggir jalan. Semangkuk wedang ronde pada umumnya dihargai kurang lebih tujuh ribu rupiah hingga sepuluh ribu rupiah. Minuman hangat dengan berbagai isian ini rasanya sedap dan nikmat sekali. Sangat pas jika diminum ketika malam hari atau pun ketika musim dingin.</string>
+
+    <string name="url_wedang_jahe">https://budayajawa.id/wp-content/uploads/2018/01/Makna-Kerata-Basa-Wedang-Gawe-kadang-Ngawe-kadang.jpg</string>
+    <string name="desc_wedang_jahe">Wedang jahe adalah hidangan minuman sari jahe tradisional dari daerah Jawa Tengah dan Timur, Indonesia yang umumnya disajikan hangat atau panas.[1] Wedang jahe juga kadang disebut sebagai teh jahe, meskipun sama sekali tidak mengandung daun teh. "Wedang" sendiri adalah istilah dalam bahasa Jawa yang berarti "minuman panas". Walaupun tanpa kandungan kafeina, minuman ini sering kali disajikan dan dinikmati seperti teh. Minuman ini dibuat dari irisan jahe segar, gula jawa atau gula batu yang dicampur ke dalam air panas. Selain menggunakan jahe segar, masyarakat Indonesia juga menggunakan jahe bubuk sebagai bahan umum di resep tradisional mereka. Terkadang rempah-rempah seperti daun pandan, batang sereh, cengkih dan/atau kayu manis ditambahkan untuk menambah aroma. Susu segar atau susu kental manis juga dapat ditambahkan.</string>
+
+    <string name="url_bir_pletok">https://www.infobudaya.net/wp-content/uploads/2017/11/Bir-Pletok-1.jpg</string>
+    <string name="desc_bir_pletok">Bir pletok adalah minuman penyegar yang dibuat dari campuran beberapa rempah, yaitu jahe, daun pandan wangi, dan serai. Minuman tradisional ini dikenal di kalangan etnis Betawi. Agar warnanya lebih menarik, orang Betawi biasanya menggunakan tambahan kayu secang, yang akan memberikan warna merah bila diseduh dengan air panas.</string>
+
+    <string name="url_teh_tarik">https://cdn.pixabay.com/photo/2017/02/02/23/19/coffee-2034112_960_720.jpg</string>
+    <string name="desc_teh_tarik">Teh tarik secara harfiah berarti "teh yang ditarik," karena seperti itulah yang dilakukan pengrajin teh ini di kedai mamak India ketika membuat minuman teh tarik. Teh dan susu dituangkan melalui udara antara dua cangkir, terus-menerus sampai mencapai tekstur yang kaya dan berbusa. Pembuat teh tarik yang terampil bagaikan seniman, tidak pernah menumpahkan setetes pun teh yang sedang dibuatnya. Lebih dari sekadar kecakapan memainkan pertunjukan dan tradisi, menuangkan teh tarik melalui udara bermaksud untuk mendinginkan teh dan menghasilkan lapisan berbusa di permukaan minuman.</string>
+
+    <string name="url_hot_chocolate">https://www.thepetitecook.com/wp-content/uploads/2015/12/IMG_65121.jpg</string>
+    <string name="desc_hot_chocolate">Cokelat panas adalah minuman panas yang dibuat dari cokelat atau kakao bubuk dan gula, dengan air atau susu hangat</string>
+
+    <string name="url_moccacino_coffee">https://majalah.ottencoffee.co.id/wp-content/uploads/2015/07/shutterstock_223511062.jpg</string>
+    <string name="desc_moccacino_coffee">Moccacino merupakan minuman yang terdiri dari bahan berupa susu, kopi dan cokelat. Kopi yang digunakan biasanya jenis espresso yaitu kopi hitam. Kemudian dikombinasikan dengan cokelat bubuk, lalu diberikan whiped cream di atas minuman tersebut.</string>
+
+    <string name="url_susu_jahe">https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/novafoto/original/82529_hangat-di-perut-segelas-susu-jahe-oat-untuk-pagi-hari.jpg</string>
+    <string name="desc_susu_jahe">Suja atau Susu Jahe adalah minuman tradisional yg hangat dan menyehatkan, terdiri dari wedang jahe yang dicampur dengan susu kental manis biasanya disajikan sore hari dan Tambah pacar cina dan kacang hijau biar menambah menarik manfaat dari minuman ini adalah Menghangatkan tubuh karena terdapat unsur jahe, kapulaga dan cengkeh.</string>
+
+    <string name="url_bajigur">https://takaitu.id/wp-content/uploads/2018/02/Bajigur.jpg</string>
+    <string name="desc_bajigur">Bajigur adalah minuman tradisional khas masyarakat Sunda dari daerah Jawa Barat, Indonesia. Bahan utamanya adalah gula aren dan santan. Untuk menambah kenikmatan dicampurkan pula sedikit jahe, garam, dan bubuk vanili.Minuman yang disajikan hangat ini biasa dijajakan bersama Bandrek, kacang rebus, ubi rebus, klepon, dan lain sebagainya dalam satu gerobak. Dalam penyajiannya, kadangkala ditambah dengan sedikit kolang-kaling (atau biasa disebut cangkaleng dalam Bahasa Sunda) yang diiris tipis. Bajigur paling pas untuk dinikmati kala hujan ataupun cuaca dingin.</string>
+
+    <string name="url_hot_milo">https://twinsandablog.com.au/wp-content/uploads/2016/06/mii-2.jpg</string>
+    <string name="desc_hot_milo">Milo adalah sebuah merek minuman dengan rasa cokelat dan malt. Minuman ini diproduksi oleh Nestlé, minuman ini sebenarnya berasal dari Australia namun saat ini sudah diproduksi di berbagai negara.Milo dapat ditambahkan pada susu, baik yang panas ataupun dingin, untuk memberikannya rasa coklat yang bermalt dan tekstur yang indah. </string>
+
+    <string name="url_teh_talua">https://img.bisnis.com/posts/2018/09/12/837485/talua3sah.jpg</string>
+    <string name="desc_teh_talua">Teh Talua atau teh telur adalah minuman khas Sumatra Barat yang merupakan menu wajib di warung tradisional maupun restoran Padang. Minuman ini terdiri dari campuran teh, gula dan telur dan sedikit perasan jeruk nipis. Telur yang digunakan biasanya adalah telur ayam kampung. Teh talua biasanya diminum oleh para petani yang hendak meladang, sebagai penambah stamina kerja.</string>
+
+    <string name="url_kembang_tahu">https://www.pegipegi.com/travel/wp-content/uploads/2018/11/wedang-tahu.jpg</string>
+    <string name="desc_kembang_tahu">adalah minuman yang beromakan jahe dan berisi kembang tahu yang terbuat dari sari kedelai. Minuman ini berkhasiat sebagai penghangat tubuh dan sangat cocok bila dinikmati pada musim hujan, pada pagi ataupun sore hari.Wedang Tahu terbuat dari susu kedelai yang dicampur dengan air garam, dan bubuk agar-agar yang dimasak sehingga menjadi kembang tahu atau tahu sutera, yang akan dijadikan sebagai isi dari wedang Tahu tersebut.Ada kesamaan rasa dalam kuah wedang tahu ini dengan wedang ronde, hanya saja yang membedakan adalah wedang ronde terdiri dari beberapa macam komposisi yang penuh warna sedang wedang tahu sendiri hanya minimal warna saja. namun soal rasa tak beda jauh. Penjual wedang tahu biasa menjajakannya dengan pikulan atau berada di pinggir jalan dan untuk menarik perhatian para calon pembeli, mereka membunyikan peranti musik teng-teng berukuran mini dengan pemukul dari kayu.</string>
+
+    <string name="url_sekoteng">https://media.travelingyuk.com/wp-content/uploads/2017/05/Sekoteng-odeon-bogor.jpg</string>
+    <string name="desc_sekoteng">Sekoteng adalah minuman khas Jawa Tengah yang dibuat dari air jahe yang biasa dihidangkan panas. Bahan lain yang biasanya dicampur ke dalam minuman sekoteng adalah kacang hijau, kacang tanah, pacar cina, dan potongan roti tawar. Sekoteng biasa dihidangkan pada malam hari. Sekoteng biasanya dijual keliling dengan menggunakan gerobak pikul, tetapi ada juga yang berjualan di gerobak dengan menetap. Satu sisi untuk panci air jahe beserta kompornya, sedangkan sisi lain adalah tempat bahan campuran dan tempat mempersiapkan sekoteng.</string>
+
+    <string name="url_sarabba">https://media.beritagar.id/2017-01/2ccf4a7315dcb1b6906357ff3b89a43a.jpg</string>
+    <string name="desc_sarabba">Sarabba adalah minuman khas Makassar yang diracik dari campuran jahe, kuning telur, gula aren, santan dan merica bubuk. Di daerah Jawa Tengah minuman yang serupa dengan sarabba adalah wedang jahe. Bedanya sarabba menggunakan campuran gula arena dan santan yang membuat sarabba lebih kental dibanding wedang jahe. Begitu meminum sarabba tubuh kita akan hangat dan konon katanya manjur untuk mengembalikan stamina yang kurang fit.</string>
+
+    <string name="url_jamu">https://4.bp.blogspot.com/-IVxR20jD9is/Wq84wOqgd_I/AAAAAAAAEq4/7zcbFz1FZN0j318i9SuARopzxiKH4BxwQCLcBGAs/s1600/kunyit%2Basam.jpg</string>
+    <string name="desc_jamu">Jamu adalah sebutan untuk obat tradisional dari Indonesia. Belakangan populer dengan sebutan herba atau herbal.Jamu dibuat dari bahan-bahan alami, berupa bagian dari tumbuhan seperti rimpang (akar-akaran), daun-daunan, kulit batang, dan buah. Ada juga menggunakan bahan dari tubuh hewan, seperti empedu kambing, empedu ular, atau tangkur buaya. Seringkali kuning telur ayam kampung juga dipergunakan untuk tambahan campuran pada jamu gendong. Jamu biasanya terasa pahit sehingga perlu ditambah madu sebagai pemanis agar rasanya lebih dapat ditoleransi peminumnya. Bahkan ada pula jamu yang ditambah dengan anggur. Selain sebagai pengurang rasa pahit, anggur juga berfungsi untuk menghangatkan tubuh.</string>
+
+    <string name="url_strawberry_milkshake">https://www.rachelcooks.com/wp-content/uploads/2017/06/strawberry-basil-milkshake-web-2-of-5.jpg</string>
+    <string name="desc_strawberry_milkshake">Strawberry Milkshake adalah adalah minuman dingin dari campuran susu, es krim, dan sirop berperasa yang dikocok hingga berbusa. Selain dikocok dengan blender, susu kocok bisa dibuat dengan memakai gelas pengocok bertutup (shaker).Milkshake stroberi adalah minuman dingin yang enak dinikmati sendiri atau sebagai penutup setelah makan. Minuman ini juga cocok dinikmati di kapan pun, terutama di hari yang panas. </string>
+
+    <string name="url_es_cendol">https://cdns.klimg.com/dream.co.id/resized/640x320/news/2018/06/08/86186/es-cendol-minuman-segar-saat-buka-puasa-180608h.jpg</string>
+    <string name="desc_es_cendol">Cendol merupakan minuman khas Sunda yang dahulunya terbuat dari tepung hunkwe, namun kini cendol terbuat dari tepung beras, disajikan dengan es parut serta gula merah cair dan santan. Rasa minuman ini manis dan gurih. Di daerah Sunda minuman ini dikenal dengan nama cendol sedangkan di Jawa Tengah dikenal dengan nama es dawet.</string>
+
+    <string name="url_es_campur">https://www.rancahpost.com/wp-content/uploads/2019/05/Resep-Es-Campur-Ceria-Pelepas-Dahaga-Usai-Seharian-Berpuasa.jpg </string>
+    <string name="desc_es_campur">Es campur adalah salah satu minuman khas Indonesia yang cara membuat nya dengan mencampurkan berbagai jenis bahan dalam sirup manis. Bahan yang dijadikan bahan biasanya berasa manis atau masam. Es campur dapat dijumpai di berbagai daerah di Indonesia dengan rasa dan bahan yang berbeda. Oleh karena itu daerah asal dari es campur sulit ditentukan.</string>
+
+    <string name="url_es_kepal_milo">https://d15hng3vemx011.cloudfront.net/attachment_testing/73122584403094529018.large</string>
+    <string name="desc_es_kepal_milo">Es kepal milo adalah es serut yang dikepal, lalu disiram dengan saus milo kental dan lezat. Es Kepal Milo pada mulanya berasal dari Negeri Jiran, Malaysia, dan memiliki nama asli Ais Kepal Milo.</string>
+
+    <string name="url_es_cincau">https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/sasefoto/original/36235_es-cincau-campur.jpg</string>
+    <string name="desc_es_cincau">Es cincau adalah sejenis minuman penyegar dengan bahan utama gel yang mirip agar-agar yang dikenal sebagai cincau. Potongan cincau ditambah dengan sirup, santan (atau susu) dan es serut sehingga menjadi minuman penyegar. Cincau yang dipakai berbeda-beda tergantung daun tumbuhan yang dipakai.</string>
+
+    <string name="url_es_podeng">https://d15hng3vemx011.cloudfront.net/attachment/75164580670499806874.large</string>
+    <string name="desc_es_podeng">Es Podeng merupakan nama lain dari Es Puter, nama podeng berasal dari bahasa madura yang mempunyai arti sama, yaitu puter. Es Podeng menjadi kuliner khas Jakarta meski banyak yang mengatakan kalau es krim ala Indonesia ini dibawa oleh pedagang asal Garut ke Jakarta. Banyaknya penjual es Podeng di Jakarta, membuat jajanan yang satu ini semakin tenar. Tidak  mengherankan jika dalam berbagai kesempatan, masyarakat Jakarta kerap menjadikan Es Podeng sebagai salah satu sajian pencuci mulut.</string>
+
+    <string name="url_selendang_mayang">https://lintasusaha.com/wp-content/uploads/2018/11/Resep-Gulaku_2018_800x400px_Es-Selendang-Mayang-1200x800.jpg</string>
+    <string name="desc_selendang_mayang">Es selendang mayang adalah salah satu minuman tradisional Indonesia asal Jakarta. Minuman ini sekarang jarang ditemukan karena dikalangan masyarakat Betawi sendiri minuman ini dianggap minuman kuno. Di acara-acara tertentu seperti Lebaran Betawi, minuman ini disajikan dan sering disertai dengan label "minuman Betawi jadul". Selain menyegarkan, minuman ini dapat mengurangi rasa lapar karena dibuat dengan bahan dasar tepung beras. Beberapa penjual di kota tua membuat minuman ini dengan bahan dasar tepung hunkwe dengan alasan lebih mudah dan efisien.</string>
+
+    <string name="url_kelapa_muda">https://cdn4.uzone.id/assets/uploads/feeding/resep-es-kelapa-muda.jpg/800</string>
+    <string name="desc_kelapa_muda">Es kelapa muda atau es degan (Inggris: young coconut ice) adalah minuman segar penyejuk dahaga yang terbuat dari daging dan air kelapa yang masih muda. Es kelapa muda merupakan minuman yang berasal dari Indonesia yang banyak digemari oleh orang-orang. Es kelapa muda pernah masuk kedalam 50 minuman terenak di dunia versi CNN pada tanggal 9 Desember 2011 yang menduduki peringkat ke-19.</string>
+
+    <string name="url_es_jeruk">https://truffle-assets.imgix.net/37158b9c-es-jeruk-lontar_lc_id.png</string>
+    <string name="desc_es_jeruk">Siang hari, udara terasa panas. Asyiknya di rumah menikmati minuman nikmat yang dapat menyegarkan dahaga. Ya, Anda dapat memilih es jeruk.Minuman murah meriah ini dapat dinikmati bersama keluarga di siang hari saat terik panas matahari membuat Anda kehausan. Selain sehat, es jeruk ini dapat melegakan tenggorokan. Untuk membuatnya juga sangat mudah, Anda hanya membutuhkan beberapa bahan seperti jeruk, gula pasir, es batu, dan lainnya.</string>
+
+    <string name="url_es_serut">https://ds393qgzrxwzn.cloudfront.net/resize/m600x500/cat1/img/images/0/zMAgJnnUMW.jpg</string>
+    <string name="desc_es_serut">Es serut merupakan minuman yang mudah dicari dan memiliki ragam rasa. Es serut merupakan sebuah es batu yang dicampur dengan berbagai bahan tambahan lain. Seperti kacang merah, buah-buahan, hingga cendol bahkan ada juga yang mencampurkannya dengan buah durian.</string>
+
+    <string name="url_es_kopyor">https://4.bp.blogspot.com/-rNaLBwaRByA/WTZbPabQGmI/AAAAAAAABFA/F5ugMs1WdpQ_8Afop16AcoknAwHF97cEQCLcB/s1600/cara%2Bmembuat%2Bes%2Bkopyor%2Bdari%2Bnutrijell.jpg</string>
+    <string name="desc_es_kopyor">Kopyor (yang oleh sebagian masyarakat di Jawa Tengah disebut garoh) adalah kelainan genetik pada buah kelapa. Ciri kelainan ini adalah "daging buah" yang empuk atau terlepas dari tempurungnya, jumlah air kelapa sedikit, dan aroma yang khas yang berbeda dari daging kelapa biasa. Sifat ini merupakan hasil mutasi spontan di bagian mayang yang bersifat setempat (biasa dikenal dalam botani sebagai chimera). Perubahan sifat ini dapat terjadi pada saat setelah pembuahan atau bahkan sebelumnya. Buah kelapa kopyor dapat dikenali dengan menggoyang-goyangkan buah ke kiri dan ke kanan, dan akan terdengar bunyi seolah buah kelapa tersebut bukan terisi air tetapi terisi pasir. Buah kopyor sangat disukai karena rasanya yang menyegarkan bila disajikan sebagai minuman. </string>
+
+    <string name="url_lemon_tea">https://s3.ap-southeast-1.amazonaws.com/1001inspirasiramadhan.com/post%2FSegarnya-SariWangi-Ice-Lemon-Tea-750x400.jpg</string>
+    <string name="desc_lemon_tea">Lemon tea adalah minuman rendah kalori yang akan membantu Anda mengatur dan mengurangi jumlah kalori yang Anda konsumsi. Selain menurunkan berat badan, lemon tea mengandung phytochemical yang membantu kondisi tubuh dalam memerangi penyakit jantung, diabetes, kanker dan osteoporosis</string>
+
+    <string name="url_frappuccino">https://4.bp.blogspot.com/-8S5SYjRFGz8/VrSTO3AGNvI/AAAAAAAAAqI/ngIMdIpz9To/s1600/Caramel-Frappuccino-whattheforksfordinnercom.jpg</string>
+    <string name="desc_frappucino">Frappuccino adalah jajaran minuman kopi bermerek dagang yang dijual oleh Starbucks. Minuman ini terdiri dari kopi diblender dengan es dan bahan-bahan lainnya, biasanya ditambah krim kocok. Frappuccino juga dijual dalam bentuk botol di toko-toko dan mesin penjaja.</string>
+
+    <string name="url_espresso_chill">https://secretldn.com/wp-content/uploads/2019/03/espresso-martini-brunch.jpg</string>
+    <string name="desc_espresso_chill">Espresso merupakan istilah dari bahasa Italia. Artinya kurang lebih adalah kopi yang diseduh cepat. Istilah ini muncul tahun 1990 lalu. Kopi ini hitam pekat dan rasanya pahit. Bisa dinikmati panas namun bisa juga dinikmati dingin.</string>
+
+    <string name="url_cold_brew">https://ds393qgzrxwzn.cloudfront.net/resize/m720x480/cat1/img/images/0/3He1iDCoRD.jpg</string>
+    <string name="desc_cold_brew">Minuman ini merupakan kopi hitam yang disajikan dengan seduhan air dingin. Cold brew misalnya. Minuman khas café ini dibuat dengan diseduh air dingin tanpa tersentuh air panas sedikitpun. Minuman ini dibuat dengan cara diseduh air yang bersuhu ruangan sekira 25 derajat celcius.</string>
+
+    <string name="url_ice_taro_latte">https://cdn-image.hipwee.com/wp-content/uploads/2015/06/Taro-and-Cappucino-Milk-Tea-151-1.jpg</string>
+    <string name="desc_ice_taro_latte">Iced Taro Latte adalah minuman segar yang terbuat dari teh bubuk taro di padukan dengan gula dan susu putih cair yang akan menghasilkan rasa segar. Taro adalah sebutan lain untuk jenis umbi-umbian bernama talas. nah minuman ini juga paling di cari lo bunda di cafe cafe yang berada di kota kota besar karena ke unikan rasa dan kesegaranya minuman ini yang membuat minuman ini paling ramai di pesan oleh para pecinta minuman. </string>
+
+    <string name="url_es_doger">https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/sasefoto/original/28706_es-doger-buah-naga.jpg</string>
+    <string name="desc_es_doger">Ternyata es doger ini, awalnya hanya es dan doger, itu lho yang warnanya merah muda dan diberi serutan kelapa. Tapi, setelah banyak yang suka, ada beberapa pedagang yang menambahkan tape singkong, ketan hitam, pacar cina dan roti tawar. Ada juga yang menambahkan buah seperti alpukat dan juga nangka</string>
+
+    <string name="url_es_nona">http://www.ringkaskata.com/wp-content/uploads/2018/05/Es-Nona.jpeg</string>
+    <string name="desc_es_nona">Es nona adalah minuman es legendaris dari kota Pontianak. Minuman yang juga sering dijadikan pencuci mulut ini berisi pepaya yang sudah direndam air kapur sehingga teksturnya renyah, tapai singkong, kacang merah, pacar cina, dan kadang ditambahkan nangka dan potongan roti tawar. Nantinya, bahan-bahan tersebut akan diberi es serut sirup dan susu kental manis sebagai topping.</string>
+
+    <string name="url_es_tambring">https://kintamaniid-a903.kxcdn.com/wp-content/uploads/Es-Tambring-Khas-Bali-1.jpg</string>
+    <string name="desc_es_tambring">Pulau Bali tak hanya terkenal dengan keindahan paronamanya saja, tapi juga wisata kulinernya. Salah satu minuman es yang tak boleh dilewatkan adalah es tambring.Minuman yang satu ini punya rasa yang unik karena dibuat dari campuran air kelapa, air gula jawa, putih telur ayam kampung, dan gula pasir secukupnya. Bahkan meskipun dicampur putih telur, es tambring sama sekali tidak terasa amis dan justru menyegarkan.</string>
+
+    <string name="url_es_laksamana_mengamuk">http://www.apasih.web.id/wp-content/uploads/2017/10/24289-es-laksamana-mengamuk-960x574.jpg</string>
+    <string name="desc_es_laksamana_mengamuk">Satu lagi minuman asal Riau yang pakai buah kweni, es laksamana mengamuk. Unik sekali namanya, ya? Konon, minuman ini terinspirasi dari seorang laksamana yang mengamuk di kebun mangga kweni karena istrinya berselingkuh dengan pemilik kebun. Banyaknya buah mangga yang berjatuhan pun diambil oleh masyarakat sekitar dan dibuat minuman dengan santan dan air gula. Minuman es satu ini memiliki perpaduan gurih dari santan dan manisnya air gula. Ditambah dengan manis-kecutnya mangga kweni, tentu rasanya seperti “mengamuk” dalam mulut.</string>
+
+    <string name="url_es_serbat_kweni">https://3.bp.blogspot.com/-Z_kF1SZu55M/Wc4k_OLhWYI/AAAAAAAABJk/RsaKWx38y_o08wmMcimxlnpfVXMxFptRQCLcBGAs/s1600/Capture.PNG</string>
+    <string name="desc_es_serbat_kweni">es serbat kweni adalah sajian minuman es paling andalan. Es serbat kweni ini masih langka di restoran atau warung makan, justru seringnya disajikan saat acara makan bersama atau kumpul santai.Minuman es ini memakai mangga kweni, yakni mangga yang teksturnya lebih tebal dari mangga bisa dan memiliki rasa manis-asam yang segar. Bayangkan jika irisan mangga kweni dicampurkan dengan air gula (entah air gula pasir atau gula merah), diberi tambahan es batu, dan diminum selepas hidangan berat bersantan.</string>
+
+    <string name="url_es_kacang_merah">https://team8press.com/wp-content/uploads/2019/01/resep-es-kacang-merah-850x567.jpg</string>
+    <string name="desc_es_kacang_merah">Kacang merah memang sering dibuat sajian gurih seperti sup, tapi jadi minuman es pun tak kalah menarik untuk dicoba! Di Indonesia, ada dua versi es kacang merah, yakni es kacang merah Palembang dan es kacang merah Manado.Perbedaan antara dua daerah ini adalah pemakaian susu kental manis coklat di daerah Manado, sedangkan Palembang memakai sirup cocopandan berwarna merah sebagai pemanisnya. Namun pastinya, kacang merah yang empuk, legit, dan manis jadi kunci kelezatan sajian es ini.</string>
+
+    <string name="url_es_gempol_pleret">http://panduanwisata.id/files/2015/11/liburangue.com_.gempol.jpg</string>
+    <string name="desc_es_gempol_pleret">Minuman es gempol plered memiliki dua isian yang ikonik, yakni gempol dan pleret. Gempol dan pleret dibuat dari tepung beras, tapioka, dan air yang dicampur menjadi satu adonan. Nantinya, adonan ini diambil sedikit lalu dibulatkan (digempol) dan sebagian lagi dipipihkan (dipleret).Biasanya, adonan gempol dibuat dengan warna putih, sedangkan adonan pleret dibuat hijau, merah muda, atau coklat. Es gempol pleret disajikan dengan siraman sirup manis, kuah santan, dan es batu.</string>
+
+    <string name="url_es_oyen">https://cdn.sindonews.net/dyn/620/jateng/news/2019/05/20/3/5161/resep-dan-cara-membuat-es-oyen-khas-bandung-untuk-berbuka-puasa-zvd.jpg</string>
+    <string name="desc_es_oyen">Es oyen memakai bahan dasar alpukat dan kelapa muda yang kemudian disiram kuah susu kental manis dan tak lupa es batu.Bedanya dengan es campur, es oyen memakai cincau dan pacar cina sehingga terlihat berwarna-warni di balik gelas kaca. Hmm, bikin ngiler ya? Selain bahan-bahan di atas, es oyen juga sering ditambahkan tapai singkong, nangka, kolang-kaling, dan sirup merah.</string>
+
+    <string name="url_es_lontrong_slawi">https://cdn.idntimes.com/content-images/community/2018/05/es-lontrong-e1508658965260-f42536be3005a03a926634d4049d034d.jpg</string>
+    <string name="desc_es_lontrong_slawi">Es lontrong slawi berasal dari Slawi (Tegal) dan disebut lontrong karena di daerah Slawi, minuman es ini dijual di sebuah gang kecil bernama gang Lontrong.Pada dasarnya, es lontrong adalah es serut yang diberi isian kacang hijau, cincau, sirup merah, es batu, dan santan. Bahkan, tak jarang ditambahkan kolang-kaling dan potongan roti tawar sebagai selera. Konon es lontrong tak bisa ditemukan di lain tempat selain kota Slawi</string>
+
+    <string name="url_es_pisang_ijo">https://dkpzhs366ovzp.cloudfront.net/media_root/filer_public/2018/07/26/untitled-412-compressor.jpg</string>
+    <string name="desc_es_pisang_ijo">Minuman es asal Makassar ini memang cukup populer. Es pisang ijo terbuat dari pisang raja yang dilapisi kulit berwarna hijau dari adonan tepung beras, tepung kanji, santan, dan air daun suji. Pisang ijo ini disajikan dengan bubur sumsum, es, sirup merah, dan susu kental manis. Karena banyaknya komponen yang disajikan, es pisang ijo ini cukup membuat kenyang</string>
+
+    <string name="url_es_teler">https://d2bysbshjoyxc1.cloudfront.net/uploads/post/image/1904e27f-2f9e-423c-bc14-3fcdfa141ad8.jpg</string>
+    <string name="desc_es_teler">Es teler sangat populer di kalangan masyarakat karena rasanya yang memang bikin teler saking enaknya. Aneka isiannya seperti potongan buah alpukat, nangka, kelapa, dan cincau yang disiram kuah santan, susu kental manis, dan tambahan es batu. Saat ini, es teler mudah ditemukan dimana-mana, bahkan ada yang mengangkatnya sebagai brand restoran.</string>
+
+    <string name="url_ayam_kecap">https://i1.wp.com/notepam.com/wp-content/uploads/2017/09/resep-ayam-kecap-bango.jpg</string>
+    <string name="desc_ayam_kecap">ayam kecap adalah potongan ayam yang dilumuri dengan kecap manis, dibumbui dengan bawang merah atau bawang bombay, bawang merah, jahe, lada, bawang prei dan tomat.</string>
+
+    <string name="url_nasi_campur">https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Made%27s_Warung_Nasi_Campur.jpg/1200px-Made%27s_Warung_Nasi_Campur.jpg</string>
+    <string name="desc_nasi_campur">Nasi campur adalah masakan khas Indonesia.[1] Makanan ini terdiri dari nasi putih yang dihidangkan dengan bermacam-macam lauk-pauk. Lauk yang digunakan adalah sambal goreng, abon, serundeng, tahu goreng, ikan goreng, telur dan lain-lain. Tergantung dari warung atau rumah makan yang menyajikannya nasi campur dapat memiliki variasi tersendiri. Masakan ini juga sering dijual dalam bungkus kertas atau daun pisang.</string>
+
+    <string name="url_nasi_rendang">https://media-cdn.tripadvisor.com/media/photo-s/06/3f/05/02/warung-cikgo.jpg</string>
+    <string name="desc_nasi_rendang">Rendang adalah adalah masakan daging dengan bumbu rempah-rempah yang berasal dari Minangkabau. Masakan ini dihasilkan dari proses memasak yang dipanaskan berulang-ulang menggunakan santan sampai kuahnya kering sama sekali. Proses memasaknya memakan waktu berjam-jam (biasanya sekitar empat jam) hingga yang tinggal hanyalah potongan daging berwarna hitam pekat. Dalam suhu ruangan, rendang dapat bertahan hingga berminggu-minggu. Rendang yang dimasak dalam waktu yang lebih singkat dan santannya belum mengering disebut kalio, berwarna coklat terang keemasan.</string>
+
+    <string name="url_nasi_uduk">https://asset-a.grid.id/crop/0x0:0x0/700x465/photo/2019/04/16/3933031395.jpg</string>
+    <string name="desc_nasi_uduk">Nasi Uduk adalah adalah nama makanan yang terbuat dari bahan dasar nasi putih yang diaron dan dikukus dengan santan, serta dibumbui dengan pala, kayu manis, jahe, daun serai dan merica. Makanan ini ditemukan oleh penduduk pulau Jawa sekitar tahun 1910-1924 dan dipopulerkan oleh Hindia Belanda setelahnya. Nasi uduk biasa dihidangkan dengan emping goreng, tahu goreng, telur dadar / telur goreng yang teriris, dan abon kering, tempe, bawang goreng, ayam goreng, timun serta sambal kacang. Makanan ini biasanya lebih sering dijual di pagi hari untuk sarapan dan malam hari untuk makan malam. Pada malam hari, biasanya nasi uduk dijual di pinggir jalan raya di kota-kota besar. Nasi uduk banyak dijual di kota-kota dan berbagai wilayah di Indonesia Selatan, yaitu pulau Jawa, dan cukup sulit untuk ditemukan di pulau Sumatra, Kalimantan, Sulawesi, Papua dan lain-lain. </string>
+
+    <string name="url_nasi_bebek">https://roemahsteak.files.wordpress.com/2015/02/bebek-goreng.jpg</string>
+    <string name="desc_nasi_bebek">Nasi Bebek adalah adalah sebuah hidangan daging yang biasanya disantap oleh masyarakat Tionghoa, yang terbuat dari bebek bakar atau rebus dan nasi putih. Bebek rebus biasanya dimasak dengan ubi dan udang; hidangan tersebut biasanya disajikan dengan nasi putih dan saus hitam pekat</string>
+
+    <string name="url_nasi_goreng">https://scm-assets.constant.co/scm/unilever/e9dc924f238fa6cc29465942875fe8f0/d8bb3733-9eef-46e8-8575-cddadd1c04f8.jpg</string>
+    <string name="desc_nasi_goreng">Nasi goreng adalah sebuah makanan berupa nasi yang digoreng dan diaduk dalam minyak goreng atau margarin, biasanya ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan bumbu-bumbu lainnya, seperti telur, ayam, dan kerupuk. Ada pula nasi goreng jenis lain yang dibuat bersama ikan asin yang juga populer di seluruh Indonesia. Nasi goreng juga dikenal sebagai masakan nasional Indonesia.</string>
+
+    <string name="url_ayam_goreng">https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1521175120/iyclwwgtbwbizxbfpyx3.jpg</string>
+    <string name="desc_ayam_goreng">Ayam goreng adalah hidangan yang dibuat dari daging ayam dicampur tepung bumbu yang digoreng dalam minyak goreng panas. Beberapa rumah makan siap saji secara khusus menghidangkan ayam goreng, misalnya Kentucky Fried Chicken. Sementara itu beberapa rumah makan di Indonesia juga menghidangkan ayam goreng tradisional Indonesia seperti Ayam Goreng Suharti, Fatmawati dan Mbok Berek.</string>
+
+    <string name="url_ayam_gepuk">https://cdn2.styl.id/media/post/medium/-bikin-ayam-gepuk-pedas-di-rumah-bikin-ketagihan-banget.jpg</string>
+    <string name="desc_ayam_gepuk">Ayam gepuk adalah ayam ungkep yang gurih. Setelah digoreng kering, ayam dipenyet bersama sambal bawang putih. Ayam di sini tak dihancurkan layaknya ayam geprek, tapi hanya dipukul-pukul atau digepuk menggunakan ulekan hingga pipih mirip ayam penyet.</string>
+
+    <string name="url_ayam_geprek">https://foodizz.id/blog/wp-content/uploads/2019/05/Ayam-Geprek-Feature-Image-750x500.png</string>
+    <string name="desc_ayam_geprek">Ayam geprek adalah hidangan ayam goreng yang diuleg diatas cobek. Ayam yang digunakan ini sudah terlebih dahulu digoreng dengan tepung cripsy dan kering. Biasanya bagian ayam yang digunakan pun nggak ada tulangnya atau cuma punya sedikit tulang. Jadi makannya pun nggak ribet sama tulang.Varian sambal untuk ayam geprek pun banyak, mulai dari sambal bawang hingga sambal matah.</string>
+
+    <string name="url_ayam_bakar">https://img.inews.id/media/822/files/inews_new/2018/10/20/ayam_bakar_kecap.jpg</string>
+    <string name="desc_ayam_bakar">Ayam bakar adalah sebuah hidangan Asia Tenggara Maritim, terutama hidangan Indonesia atau Malaysia, dari ayam yang dipanggang di atas arang. makanan yang hampir bisa kita temui di semua daerah ini proses pembuatannya terbilang mudah. Bahkan bumbu yang di gunakan juga tidak terlalu banyak dan hanya menggunakan bumbu yang sudah biasa ada di dapur.</string>
+
+    <string name="url_pecel_lele">https://s3-ap-southeast-1.amazonaws.com/magazine.job-like.com/magazine/wp-content/uploads/2018/02/11120204/pecel-lele-589f2bcc917a610915ff4e44.jpg</string>
+    <string name="desc_pecel_lele">Pecak lele (atau lebih dikenal pecel lele) di Indonesia adalah nama sebuah makanan khas Jawa yang terdiri dari ikan lele dan sambal (bumbu) pecak. Biasanya yang dimaksud adalah ikan lele yang digoreng kering dengan minyak lalu disajikan dengan sambal tomat dan lalapan. Lalapan biasa terdiri dari kemangi, kubis, mentimun, dan kacang panjang. Pecak lele adalah sebuah makanan yang murah dan meriah. Makanan ini sangat digemari di Pulau Jawa sebagai alternatif masakan ayam, terutama ayam goreng. Di beberapa daerah memiliki julukan yang berbeda-beda, di Jember biasanya disebut pecek lele, Malang menyebutnya lalapan lele. Biasanya penyajian pecel lele ini seperti penyajian pada ikan gurami, nila dll. yaitu sambal khas dengan aroma terasi, sayur lalapan seperti kacang panjang, timun, kemangi. Warung pecel lele banyak berdiri di kota dan pinggir jalan dengan sebutan PKL, lesehan lalapan pecek lele dan di beberapa kampus seperti di jawa banyak berdiri untuk melayani pelajar karena harganya tergolong murah. Penjual pecel lele biasanya merupakan warga perantauan yang berasal dari Lamongan, Jawa Timur.</string>
+
+    <string name="url_nasi_kuning">https://miro.medium.com/max/1838/1*21QVGYTaxm3gFqo3g4g2bw.jpeg</string>
+    <string name="desc_nasi_kuning">Nasi kuning adalah makanan khas Indonesia. Makanan ini terbuat dari beras yang dimasak bersama dengan kunyit serta santan dan rempah-rempah. Dengan ditambahkannya bumbu-bumbu dan santan, nasi kuning memiliki rasa yang lebih gurih daripada nasi putih. Nasi kuning adalah salah satu variasi dari nasi putih yang sering digunakan sebagai tumpeng. Nasi kuning biasa disajikan dengan bermacam lauk-pauk khas Indonesia. Dalam tradisi Di Indonesia warna nasi kuning melambangkan gunung emas yang bermakna kekayaan, kemakmuran serta moral yang luhur. Oleh sebab itu nasi kuning sering disajikan pada peristiwa syukuran dan peristiwa-peristiwa gembira seperti kelahiran, pernikahan dan tunangan. Dalam tradisi Bali, warna kuning adalah salah satu dari empat warna keramat yang ada, disamping putih, merah dan hitam. Nasi kuning oleh karena itu sering dijadikan sajian pada upacara kuningan.</string>
+
+    <string name="title_activity_detail_menu">DetailMenuActivity</string>
+
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are ef?cient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--MAKANAN UNTUK CUACA PANAS-->
+
+</resources>

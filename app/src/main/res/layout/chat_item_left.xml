@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_wrapHeight="105"
+        tools:layout_conversion_wrapWidth="105" />
+
+    <TextView
+        android:id="@+id/show_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/background_left"
+        android:padding="8dp"
+        android:text="hello"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/profile_image"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_wrapHeight="105"
+        tools:layout_conversion_wrapWidth="142" />
+
+    <TextView
+        android:id="@+id/txt_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/show_message"
+        tools:layout_conversion_wrapHeight="0"
+        tools:layout_conversion_wrapWidth="0" />
+
+    <ImageView
+        android:id="@+id/imageMessage"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/show_message"
+        app:layout_constraintStart_toStartOf="@+id/show_message"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_conversion_wrapHeight="189"
+        tools:layout_conversion_wrapWidth="189" />
+
+
+</android.support.constraint.ConstraintLayout>
