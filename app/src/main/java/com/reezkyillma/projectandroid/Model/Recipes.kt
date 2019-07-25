@@ -33,6 +33,14 @@ class Recipes {
     @Expose
     private var image: String? = null
 
+    @SerializedName("ingredient")
+    @Expose
+    private var ingredient: String? = null
+
+    @SerializedName("direction")
+    @Expose
+    private var direction: String? = null
+
 
     fun getArticleId(): String? {
 
@@ -70,5 +78,14 @@ class Recipes {
     fun getImage(): String? {
         return image
     }
+
+    fun getIngredient(): String?{
+        return ingredient
+    }
+
+    fun getDirection(): String?{
+        return direction
+    }
+
 
 }

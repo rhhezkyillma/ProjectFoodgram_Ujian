@@ -22,8 +22,7 @@ class DetailMenuActivity : YouTubeBaseActivity() {
 
 
     companion object {
-        val VIDEO_ID: String = "tZy5E6ILvEA"
-        val YOUTUBE_API_KEY: String = "AIzaSyDHGT8Bcvc308y2KNudCjwskmsqrnPYe1g"
+        val YOUTUBE_API_KEY: String = R.string.YOUTUBE_API_KEY.toString()
 
     }
 

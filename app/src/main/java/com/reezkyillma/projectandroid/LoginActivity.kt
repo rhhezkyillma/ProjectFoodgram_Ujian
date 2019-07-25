@@ -11,6 +11,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.text.TextUtils
 import android.view.View
+import android.view.WindowManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
@@ -55,9 +56,12 @@ class  LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-
         email = findViewById(R.id.email)
         password = findViewById(R.id.password)
+
+        email.clearFocus()
+        password.clearFocus()
+
         login = findViewById(R.id.login)
         txt_signup = findViewById(R.id.txt_signup)
         txt_forgot = findViewById(R.id.txt_forgot)

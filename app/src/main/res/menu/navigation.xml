@@ -25,7 +25,7 @@
     <item
         android:id="@+id/nav_add"
         android:icon="@drawable/add"
-        android:title="Post"/>
+        android:title="Add Post"/>
 
 
     <item

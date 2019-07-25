@@ -3,6 +3,7 @@
 package com.reezkyillma.projectandroid.Fragments
 
 import android.app.AlertDialog
+import android.app.ProgressDialog
 import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
@@ -16,6 +17,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.hp.weatherapplication.WeatherData.ApixuWeatherApiService
 import com.example.hp.weathermodule.Model.ModelMakanan
+import com.github.pwittchen.swipe.library.rx2.SwipeListener
 import com.reezkyillma.projectandroid.Adapter.RecHomeAdapter
 import com.reezkyillma.projectandroid.PreferenceData.PrefData
 
@@ -39,6 +41,8 @@ class WeatherFragment : Fragment() {
             "1186", "1189", "1192", "1195", "1198", "1201", "1204", "1207", "1210", "1213",
             "1216", "1219", "1222", "1225", "1237", "1240", "1243", "1246", "1249", "1252",
             "1255", "1258", "1261", "1264", "1273", "1276", "1279", "1282")
+
+
 
     fun checkConnection(): Boolean {
         //CHECK THE CONNECTION ON DEVICE
@@ -68,15 +72,27 @@ class WeatherFragment : Fragment() {
     }
 
     fun initialize() {
+        val pd = ProgressDialog(context)
+        pd.setMessage("Loading")
+        pd.show()
+
+
+        swipeRefresh.setOnRefreshListener {
+            val isConnected = checkConnection()
+            if (isConnected){
+                println("IS REFRESHING")
+                initialize()
+                swipeRefresh.isRefreshing = false
+            }else{
+                swipeRefresh.isRefreshing = false
+                showDialogInternet()
+            }
+        }
+
         val city = context?.let { PrefData(it) }
         var cityName = city?.getCityPref().toString()
         println("CITY NAME = " + cityName)
 
-        val listMakanan: List<ModelMakanan> = listOf(
-                ModelMakanan("Makanan 1", "Deskripsi Makanan , makanan ini adalah sdfdsfs", "urlVideo", "https://cdn.moneysmart.id/wp-content/uploads/2018/12/08181221/Makanan-ini-paling-pas-disantap-saat-musim-hujan-turun-700x497.jpg"),
-                ModelMakanan("Makanan 2", "Deskripsi Makanan , makanan ini adalah sdfdsfs", "urlVideo", "https://cdn.moneysmart.id/wp-content/uploads/2018/12/08181221/Makanan-ini-paling-pas-disantap-saat-musim-hujan-turun-700x497.jpg"),
-                ModelMakanan("Makanan 3", "Deskripsi Makanan , makanan ini adalah sdfdsfs", "urlVideo", "https://cdn.moneysmart.id/wp-content/uploads/2018/12/08181221/Makanan-ini-paling-pas-disantap-saat-musim-hujan-turun-700x497.jpg")
-        )
         val listMakananDingin: List<ModelMakanan> = listOf(
 //                SUMBER MAKANAN https://www.idntimes.com/food/dining-guide/ayu-anggraeni/10-makanan-cocok-dinikmati-saat-hujan-1/full
                 ModelMakanan("Sop Ayam", resources.getString(R.string.desc_sop_ayam), "V8YCccbFa0M", resources.getString(R.string.url_sop_ayam)),
@@ -99,10 +115,6 @@ class WeatherFragment : Fragment() {
                 ModelMakanan("Sop Iga", resources.getString(R.string.desc_sop_iga), "Fe24LwPtVcA", resources.getString(R.string.url_sop_iga)),
                 ModelMakanan("Sate Padang", resources.getString(R.string.desc_sate_padang), "Z5v5jKuRCCA", resources.getString(R.string.url_sate_padang)),
                 ModelMakanan("Lontong Sayur", resources.getString(R.string.desc_lontong_sayur), "8CsfNTn2xdI", resources.getString(R.string.url_lontong_sayur))
-
-
-
-
         )
         val listMakananHangat: List<ModelMakanan> = listOf(
                 ModelMakanan("Ayam Kecap", resources.getString(R.string.desc_ayam_kecap), "aaicnQuFJxA", resources.getString(R.string.url_ayam_kecap)),
@@ -223,6 +235,8 @@ class WeatherFragment : Fragment() {
             intentToWeather.putExtra("CITYNAME", cityName)
             startActivity(intentToWeather)
         })
+
+        pd.dismiss()
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
@@ -235,6 +249,7 @@ class WeatherFragment : Fragment() {
         } else {
             showDialogInternet()
         }
+
 
     }
 

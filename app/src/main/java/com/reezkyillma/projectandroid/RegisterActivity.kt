@@ -5,6 +5,7 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Patterns
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -20,6 +21,7 @@ import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 
 import java.util.HashMap
+import java.util.regex.Pattern
 
 class RegisterActivity : AppCompatActivity() {
     internal lateinit var username: EditText
@@ -48,27 +50,47 @@ class RegisterActivity : AppCompatActivity() {
 
         txt_login.setOnClickListener { startActivity(Intent(this@RegisterActivity, LoginActivity::class.java)) }
 
+        fun emailValidation():Boolean{
+            val email = email.text.toString()
+            val pattern = Patterns.EMAIL_ADDRESS
+            return pattern.matcher(email).matches()
+        }
         register.setOnClickListener {
-            pd = ProgressDialog(this@RegisterActivity)
-            pd.setMessage("Please wait...")
-            pd.show()
+
 
             val str_username = username.text.toString()
             val str_fullname = fullname.text.toString()
             val str_email = email.text.toString()
             val str_password = password.text.toString()
+            val isEmailValid = emailValidation()
+            println("EMAIL IS VALID ? " + isEmailValid)
 
-            if (TextUtils.isEmpty(str_username) || TextUtils.isEmpty(str_fullname) || TextUtils.isEmpty(str_email) || TextUtils.isEmpty(str_password)) {
-                Toast.makeText(this@RegisterActivity, "All fields are required!", Toast.LENGTH_SHORT).show()
+            if (TextUtils.isEmpty(str_fullname)) {
+                Toast.makeText(this@RegisterActivity, "Full Name are required!", Toast.LENGTH_SHORT).show()
+            } else if (TextUtils.isEmpty(str_username)) {
+                Toast.makeText(this@RegisterActivity, "Username are required!", Toast.LENGTH_SHORT).show()
+            } else if (TextUtils.isEmpty(str_email)) {
+                Toast.makeText(this@RegisterActivity, "Email are required!", Toast.LENGTH_SHORT).show()
+            } else if(isEmailValid != true){
+                Toast.makeText(this@RegisterActivity, "Please input your email Correctly", Toast.LENGTH_SHORT).show()
+            }else if (TextUtils.isEmpty(str_password)) {
+                Toast.makeText(this@RegisterActivity, "Password are required!", Toast.LENGTH_SHORT).show()
             } else if (str_password.length < 6) {
                 Toast.makeText(this@RegisterActivity, "Password must have 6 characters!", Toast.LENGTH_SHORT).show()
             } else {
+                pd = ProgressDialog(this@RegisterActivity)
+                pd.setMessage("Please wait...")
+                pd.show()
                 register(str_username, str_fullname, str_email, str_password)
             }
         }
     }
 
     fun register(username: String, fullname: String, email: String, password: String) {
+        println("USERNAME : " + username)
+        println("FULLNAME :" + fullname)
+        println("EMAIL :" +  email)
+        println("PASSWORD : " + password)
         auth.createUserWithEmailAndPassword(email, password)
                 .addOnCompleteListener(this@RegisterActivity) { task ->
                     if (task.isSuccessful) {
@@ -93,7 +115,7 @@ class RegisterActivity : AppCompatActivity() {
                         }
                     } else {
                         pd.dismiss()
-                        Toast.makeText(this@RegisterActivity, "You can't register with this email or password", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this@RegisterActivity, "Email and password already registered !", Toast.LENGTH_SHORT).show()
                     }
                 }
 
